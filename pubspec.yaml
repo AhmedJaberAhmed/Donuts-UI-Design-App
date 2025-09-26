@@ -1,0 +1,35 @@
+name: donuts_app_ui_design
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/donuts/donut_.png
+    - images/donuts/drink.png
+    - images/donuts/spaghetti.png
+    - images/donuts/pizza.png
+    - images/donuts/burger.png
+    - images/donuts/donut_cream.png
+    - images/donuts/moni.png
+    - images/donuts/faro.png
+    - images/donuts/choco.png
+
